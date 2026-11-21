@@ -12,18 +12,33 @@ npm install @robert.tools/atom-text
 
 ### 📝 Sample usage
 
-```typescript
-import { atom-text } from '@robert.tools/atom-text';
+#### prerequisites
 
-atom-text('hello'); // 'atom-text: hello'
+- define css variables
+
+#### Template
+
+Use the text component as shown below:
+
+```html
+{{ component("atom/text", {}) }}
 ```
 
-## 🗃️ commands
+#### CSS
 
-After an npm install with `npm i` the following commands are available:
+Use the basic styling
 
-* initialize placeholders: `npm run init <semantic>`
-* release a new version: `npm run release <semantic>`
+```css
+@import '@robert.tools/atom-text/index.css';
+```
+
+#### TypeScript
+
+Include TypeScript by importing the component
+
+```typescript
+import * as AtomText from '@robert.tools/atom-text';
+```
 
 ## ⚖️ Notes
 
