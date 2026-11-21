@@ -1,21 +1,21 @@
-# 🗂️ @robert.tools/sample
+# 🗂️ @robert.tools/atom-text
 
-<description>
+A component to provide text elements.
 
 ## 📜 Usage
 
 ### 🟢 Installation
 
 ```bash
-npm install @robert.tools/sample
+npm install @robert.tools/atom-text
 ```
 
 ### 📝 Sample usage
 
 ```typescript
-import { <name> } from '@robert.tools/sample';
+import { atom-text } from '@robert.tools/atom-text';
 
-<name>('hello'); // '<name>: hello'
+atom-text('hello'); // 'atom-text: hello'
 ```
 
 ## 🗃️ commands
